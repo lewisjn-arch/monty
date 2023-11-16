@@ -13,7 +13,7 @@ void s_pall()
 	if (top == -1)
 		return;
 
-	for (i = top; i > 0; i--)
+	for (i = top; i >= 0; i--)
 	{
 		printf("%d\n", stack[i]);
 	}
